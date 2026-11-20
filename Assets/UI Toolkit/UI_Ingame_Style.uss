@@ -1,0 +1,12 @@
+:root {
+}
+
+.text {
+    -unity-font-definition: url("project://database/Assets/MS-DOT.ttf?fileID=12800000&guid=cb468289b3bff594aa7789ea3554d196&type=3#MS-DOT");
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    margin-top: -3px;
+    margin-right: -3px;
+    margin-bottom: -3px;
+    margin-left: 3px;
+}

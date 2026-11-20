@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UI_MainMenu_Style.uss?fileID=7433441132597879392&amp;guid=2112955ac2bee6d4a9056feac519abbc&amp;type=3#UI_MainMenu_Style"/>
+    <ui:VisualElement style="flex-grow: 1; bottom: -118px;">
+        <ui:Label text="Pause" name="Pause" class="header" style="-unity-text-align: upper-center;"/>
+        <ui:Button text="Return to Title" name="Quit" class="button" style="-unity-text-align: upper-center; width: 227px; background-color: rgba(0, 0, 0, 0.494); left: 124px; border-top-left-radius: 19px; border-top-right-radius: 19px; border-bottom-right-radius: 19px; border-bottom-left-radius: -15px; border-bottom-width: -7px;"/>
+    </ui:VisualElement>
+</ui:UXML>

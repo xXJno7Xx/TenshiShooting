@@ -1,0 +1,51 @@
+:root {
+}
+
+.header {
+    font-size: 46px;
+    -unity-font-style: bold;
+    -unity-text-outline-color: rgba(177, 191, 255, 0.42);
+    -unity-text-outline-width: 2px;
+    color: rgb(235, 239, 255);
+    top: 1px;
+    opacity: 1;
+    left: auto;
+    -unity-font-definition: url("project://database/Assets/MS-DOT.ttf?fileID=12800000&guid=cb468289b3bff594aa7789ea3554d196&type=3#MS-DOT");
+}
+
+
+
+.button {
+    -unity-font-definition: url("project://database/Assets/MS-DOT.ttf?fileID=12800000&guid=cb468289b3bff594aa7789ea3554d196&type=3#MS-DOT");
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    -unity-text-align: upper-left;
+    width: 237px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(218, 218, 255);
+    -unity-font-style: bold;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgba(155, 170, 255, 0.361);
+    font-size: 24px;
+    padding-top: -3px;
+    padding-right: -3px;
+    padding-bottom: -3px;
+    padding-left: -3px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    left: 5px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.button:hover {
+    color: rgb(0, 186, 255);
+}

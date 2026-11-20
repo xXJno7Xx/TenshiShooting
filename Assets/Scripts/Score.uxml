@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UI_Ingame_Style.uss?fileID=7433441132597879392&amp;guid=2a3b19e23c72eda4c92525eb06609f60&amp;type=3#UI_Ingame_Style"/>
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label text="0" name="hiscore" class="text"/>
+    </ui:VisualElement>
+</ui:UXML>
