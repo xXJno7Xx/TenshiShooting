@@ -9,6 +9,8 @@ public class UI_Pause_Events : MonoBehaviour
     private PanelRenderer _panelRenderer;
     private Button _buttonQuit;
 
+    //private Label m_Score; //                                    TESTTESTESTESTTESTTEST
+
     //public AudioSource _audioSource;
 
 
@@ -26,6 +28,7 @@ public class UI_Pause_Events : MonoBehaviour
     private void OnUIReload(PanelRenderer renderer, VisualElement root)
     {
         _buttonQuit = root.Q("Quit") as Button;
+        //m_Score = root.Q<Label>("Score"); //                                    TESTTESTESTESTTESTTEST
     }
 
 
@@ -47,6 +50,9 @@ public class UI_Pause_Events : MonoBehaviour
             return;
 
         _buttonQuit.RegisterCallback<ClickEvent>(OnQuitClick);
+
+
+        //m_Score.text = PlayerPrefs.GetFloat("highscore").ToString(); //                                    TESTTESTESTESTTESTTEST
     }
 
 
@@ -54,6 +60,7 @@ public class UI_Pause_Events : MonoBehaviour
     {
         Debug.Log("Quit Game");
         //_audioSource.Play();
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
     }
 

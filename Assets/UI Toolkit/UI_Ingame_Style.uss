@@ -9,4 +9,18 @@
     margin-right: -3px;
     margin-bottom: -3px;
     margin-left: 3px;
+    font-size: 17px;
+    -unity-text-align: upper-left;
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(255, 255, 255);
+    text-shadow: -10px 10px 0 rgba(0, 7, 24, 0.518);
+    letter-spacing: 0;
+    word-spacing: 0;
+    -unity-paragraph-spacing: 0;
+    -unity-text-generator: advanced;
+    -unity-text-auto-size: none;
+    cursor: initial;
+    opacity: 1;
+    visibility: visible;
+    display: flex;
 }

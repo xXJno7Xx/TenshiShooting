@@ -1,9 +1,13 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/UI_Ingame_Style.uss?fileID=7433441132597879392&amp;guid=2a3b19e23c72eda4c92525eb06609f60&amp;type=3#UI_Ingame_Style"/>
     <ui:VisualElement style="flex-grow: 1;">
-        <ui:Label text="HIGHSCORE" name="TitleHiScore" class="text" style="width: 94px;"/>
-        <ui:Label text="0" name="HiScore" class="text" style="width: 50px;"/>
-        <ui:Label text="SCORE&#10;" name="TitleScore" class="text" style="width: 94px; top: -32px; left: 108px;"/>
-        <ui:Label text="0" name="Score" class="text" style="width: 50px; top: -46px; left: 110px;"/>
+        <ui:Label text="HIGHSCORE" name="TitleHiScore" class="text" style="width: 94px; position: absolute; top: 0;"/>
+        <ui:Label text="0" name="HiScore" class="text" style="width: 50px; position: absolute; top: 13px;"/>
+        <ui:Label text="SCORE&#10;" name="TitleScore" class="text" style="width: 94px; top: 0; left: 110px; position: absolute;"/>
+        <ui:Label text="0" name="Score" class="text" style="width: 50px; top: 13px; left: 110px; position: absolute;"/>
+        <ui:Label text="LIFE" name="TitleLife" class="text" style="width: 94px; top: 0; left: 195px; position: absolute;"/>
+        <ui:Label text="0" name="Life" class="text" style="width: 50px; top: 13px; left: 195px; position: absolute;"/>
+        <ui:Label text="BOMB" name="TitleBomb" class="text" style="width: 94px; top: 0; left: 250px; position: absolute;"/>
+        <ui:Label text="0" name="Bomb" class="text" style="width: 50px; top: 13px; left: 250px; position: absolute;"/>
     </ui:VisualElement>
 </ui:UXML>

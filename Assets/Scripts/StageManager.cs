@@ -92,7 +92,7 @@ public class StageManager : MonoBehaviour
 
             if (enemySpawnFreq > enemySpawnFreqLimit)
             {
-                enemySpawnFreq -= 0.04f * Time.deltaTime;
+                enemySpawnFreq -= 0.03f * Time.deltaTime;
             }
 
             // Background

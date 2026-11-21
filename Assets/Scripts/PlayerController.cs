@@ -3,13 +3,19 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public Rigidbody2D rb2D;
-    public SpriteRenderer spriteRenderer;
-    public GameObject p_BulletSpawn;
+   
+
+    // ------------ MOVEMENT VARIABLES -------------------------
 
     public float moveSpeed = 10f;
     public float moveSpeedFocus = 5f;
 
+    public int bomb_amount = 3;
+    public int health = 3;
+    public float invincibilityTime = 0.1f;        //Cooldown Invincibility Time after being hit
+    private float invinciblity_timer = 0f;
+
+    // ------------ INPUTS & STATES ----------------
     private Vector2 _moveDirection;
 
     public InputActionReference move;
@@ -26,10 +32,11 @@ public class PlayerController : MonoBehaviour
     public float horizontalVelocity = 0f; //only used for Animation
     public float verticalVelocity = 0f; //only used for Animation
 
-    public int bomb_amount = 3;
-    public int health = 3;
-    public float invincibilityTime = 0.1f;        //Cooldown Invincibility Time after being hit
-    private float invinciblity_timer = 0f;
+    // ----------- GAME OBJECTS ----------------------------   
+
+    public Rigidbody2D rb2D;
+    public SpriteRenderer spriteRenderer;
+    public GameObject p_BulletSpawn;
 
     public GameObject Explosion;
     public AudioSource _audioSource;
@@ -121,7 +128,7 @@ public class PlayerController : MonoBehaviour
             AudioManager.Instance.StopMusic();
 
 
-            GameOverScreen.SetActive(true);
+            //GameOverScreen.SetActive(true);
 
             gameObject.SetActive(false);
         }

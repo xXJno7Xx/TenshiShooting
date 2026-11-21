@@ -4,16 +4,15 @@
 .header {
     font-size: 46px;
     -unity-font-style: bold;
-    -unity-text-outline-color: rgba(177, 191, 255, 0.42);
+    -unity-text-outline-color: rgba(0, 46, 255, 0.42);
     -unity-text-outline-width: 2px;
     color: rgb(235, 239, 255);
     top: 1px;
     opacity: 1;
     left: auto;
     -unity-font-definition: url("project://database/Assets/MS-DOT.ttf?fileID=12800000&guid=cb468289b3bff594aa7789ea3554d196&type=3#MS-DOT");
+    text-shadow: -9px 10px 0 rgba(0, 0, 0, 0.886);
 }
-
-
 
 .button {
     -unity-font-definition: url("project://database/Assets/MS-DOT.ttf?fileID=12800000&guid=cb468289b3bff594aa7789ea3554d196&type=3#MS-DOT");
@@ -44,6 +43,7 @@
     left: 5px;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
+    text-shadow: -10px 10px 0 rgb(0, 0, 0);
 }
 
 .button:hover {
